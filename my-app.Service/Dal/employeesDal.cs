@@ -11,9 +11,7 @@ namespace MyProject.DAL
         {
             var entities = new List<MyEntity>();
             Random random = new Random();
-            for (int i = 0; i < 10; i++) // Generate 10 random numbers
-        {
-             List<string> firstNames = new List<string>
+                         List<string> firstNames = new List<string>
         {
             "John", "Jane", "Alex", "Emily", "Chris", "Katie", "Michael", "Sarah"
         };
@@ -21,12 +19,14 @@ namespace MyProject.DAL
         List<string> lastNames = new List<string>
         {
             "Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson"
-        };        
+        };   
+            for (int i = 0; i < 10; i++) // Generate 10 random numbers
+        {
         // Randomly select a first name and a last name
         string firstName = firstNames[random.Next(firstNames.Count)];
         string lastName = lastNames[random.Next(lastNames.Count)];
-            var obj = new MyEntity{Id=random.Next(1, 101),Name=firstName +' ' +lastName};
-            entities.Add(obj); // Random number between 1 and 100
+        var obj = new MyEntity{Id=random.Next(1, 101),Name=firstName + ' ' +lastName};
+        entities.Add(obj); // Random number between 1 and 100
         }
             return entities;
         }
