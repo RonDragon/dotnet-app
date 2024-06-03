@@ -7,7 +7,7 @@ global:
 image:
   ## Name of the image you want to build/deploy
   ## Defaults to the release name
-  name: ghcr.io/RonDragon/dotnet-app
+  name: ghcr.io/rondragon/dotnet-app
   ## Tag that you want to build/deploy
   tag: v11
 ## Application/Deployment-specific values (For configuring Deployment, Service, Route, ConfigMap, etc)
