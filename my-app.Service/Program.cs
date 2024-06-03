@@ -26,6 +26,7 @@ app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1")
 app.UseHttpsRedirection();
 
 app.MapGet("/hello", () => "Hello, World! test swagger");
+app.MapGet("/employee", () => "get list of employee");
 
 app.MapControllers();
 
