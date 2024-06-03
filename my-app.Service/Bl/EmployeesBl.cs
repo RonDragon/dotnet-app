@@ -13,7 +13,7 @@ namespace my_app.BLL
             _dataAccess = new MyDataAccess(); // Or use Dependency Injection
         }
 
-        public IEnumerable<MyEntity> GetAllEntities()
+        public List<MyEntity> GetAllEntities()
         {
             try
             {
