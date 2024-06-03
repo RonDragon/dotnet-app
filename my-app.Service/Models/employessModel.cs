@@ -1,4 +1,4 @@
-namespace MyProject.Models
+namespace my_app.Models
 {
     public class MyEntity
     {

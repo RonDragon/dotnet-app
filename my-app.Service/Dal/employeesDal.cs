@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using MyProject.Models;
+using my_app.Models;
 
-namespace MyProject.DAL
+namespace my_app.Dal
 {
     public class MyDataAccess
     {

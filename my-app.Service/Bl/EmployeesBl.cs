@@ -1,7 +1,8 @@
-using MyProject.DAL;
-using MyProject.Models; // Models (Entities)
 
-namespace MyProject.BLL
+using my_app.Dal;
+using my_app.Models;
+
+namespace my_app.BLL
 {
     public class MyBusinessLogic
     {
