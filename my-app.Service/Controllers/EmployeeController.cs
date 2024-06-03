@@ -12,7 +12,12 @@ namespace my_app.Service.Controllers
         [Route("employee")]
         public IActionResult GetAllEmployee()
         {
+            try{
             return Ok(_bl.GetAllEntities());
+            }catch(Exception ex){
+            return Ok(ex);
+
+            }
         }
     }
 }
