@@ -7,7 +7,7 @@ spec:
     - name: GIT_URL
       value: "https://github.com/rondragon/dotnet-app"
     - name: REGISTRY
-      value: rondragon
+      value: RonDragon
     - name: IMAGE_NAME
       value: dotnet-app
     - name: IMAGE_TAG
